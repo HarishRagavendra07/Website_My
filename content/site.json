@@ -5,7 +5,7 @@
   "availability": "Open to full-time roles",
   "headline": "Software, data and AI engineer building backend APIs, production data pipelines and ML systems for",
   "headlineHighlight": "real-world data",
-  "intro": "Backend services, 200+ GB/day data pipelines and fraud-detection models in production at Tanama Software — now finishing an MSc in Artificial Intelligence at Dublin City University.",
+  "intro": "I ship backend services, data pipelines and ML models to production — 3 years engineering at Tanama Software, with an MSc in Artificial Intelligence from Dublin City University.",
   "email": "harishragavendra.c.2004@gmail.com",
   "linkedin": "https://www.linkedin.com/in/harish-ragavendra-chittibabu",
   "github": "https://github.com/HarishRagavendra07",
@@ -16,7 +16,7 @@
   "photo": "/profile.jpg",
   "stats": [],
   "about": [
-    "I'm a software, data and AI engineer finishing an MSc in Computing (Artificial Intelligence) at Dublin City University. I work across the stack that real AI products depend on: RESTful APIs and microservices, data pipelines on PostgreSQL, Kafka and PySpark, and machine learning models that are measurable and explainable.",
+    "I'm a software, data and AI engineer with an MSc in Computing (Artificial Intelligence) from Dublin City University. I work across the stack that real AI products depend on: RESTful APIs and microservices, data pipelines on PostgreSQL, Kafka and PySpark, and machine learning models that are measurable and explainable.",
     "At Tanama Software I built and owned a pipeline processing 200+ GB of banking data a day, migrated on-premise banking data to AWS with under 30 minutes of downtime, and replaced a rule-based Spark system with a gradient-boosting fraud model that cut false positives by 87%. I care about the parts that keep systems trustworthy in production: validation, monitoring, recovery and compliance."
   ],
   "research": [
