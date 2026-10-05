@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #f7f6f5;
+  --color-carbon: #141414;
+  --color-graphite: #1f1f1f;
+  --color-steel: #7d7d7d;
+  --color-mist: #e7e7e7;
+  --color-tile-gray: #efefef;
+  --color-electric-blue: #2200ff;
+  --color-accent-hover: #2a2a2a;
+
+  --color-bg: var(--color-paper);
+  --color-ink: var(--color-carbon);
+  --color-muted: var(--color-steel);
+  --color-card: var(--color-tile-gray);
+  --color-card-alt: var(--color-mist);
+  --color-border: #0000001a;
+
+  --font-body: var(--font-inter);
+  --font-heading: var(--font-inter);
+  --font-mono: var(--font-geist-mono);
+
+  --radius-btn: 2px;
+  --radius-card: 16px;
+
+  --animate-fade-up: fadeUp 0.6s ease-out forwards;
+  --animate-bounce-slow: bounceSlow 2.2s ease-in-out infinite;
+
+  @keyframes fadeUp {
+    0% {
+      opacity: 0;
+      transform: translateY(18px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes bounceSlow {
+    0%,
+    to {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(6px);
+    }
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-ink);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

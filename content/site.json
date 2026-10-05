@@ -1,0 +1,100 @@
+{
+  "name": "Harish Ragavendra",
+  "role": "AI & Data Engineer",
+  "location": "Dublin, Ireland",
+  "availability": "Open to full-time roles",
+  "headline": "AI and data engineer building reliable pipelines and ML systems for",
+  "headlineHighlight": "real-world data",
+  "intro": "Three years shipping production data pipelines, ML workflows, and cloud infrastructure — data quality, observability, and automation, not just a notebook demo.",
+  "email": "shyamharish2004@gmail.com",
+  "linkedin": "",
+  "github": "https://github.com/HarishRagavendra07",
+  "resume": {
+    "label": "AI & Data Engineer",
+    "file": "/resumes/Harish-Ragavendra-Resume.pdf"
+  },
+  "heroCard": {
+    "pipeline": ["Ingest", "Transform", "Model", "Serve"],
+    "stats": [
+      { "label": "Years in production data engineering", "value": "3+" },
+      { "label": "Pipeline reliability improvement", "value": "~30%" },
+      { "label": "Pilot detection accuracy", "value": "91%+" }
+    ]
+  },
+  "about": [
+    "I'm an AI and Data Engineer finishing an MSc in Computing (Artificial Intelligence) at Dublin City University. I build machine learning pipelines, scalable data workflows, and cloud solutions with Python, PySpark, Databricks, and SQL.",
+    "At Tanama Software I built ingestion and transformation pipelines on Azure Databricks, helped migrate an enterprise data platform from HDFS to the cloud using a medallion architecture, and added data quality checks that downstream ML workloads depend on. I care about the parts that keep data trustworthy in production: validation, observability, and automation."
+  ],
+  "projectsIntro": "Projects that best show how I design, build, test, and ship data and AI systems.",
+  "skillsIntro": "Tools I've used to build real systems — not a wishlist.",
+  "skills": [
+    { "group": "Languages", "items": ["Python", "SQL"] },
+    {
+      "group": "AI & ML",
+      "items": ["scikit-learn", "XGBoost", "LangChain", "SHAP", "Feature pipelines", "Anomaly detection", "RAG"]
+    },
+    {
+      "group": "Data Engineering",
+      "items": ["PySpark", "Spark", "Kafka", "Databricks", "ETL pipelines", "Hadoop (HDFS)", "Medallion architecture", "Data quality checks", "Data observability"]
+    },
+    {
+      "group": "Cloud",
+      "items": ["AWS (S3, EMR, SageMaker, Lambda, Kinesis)", "Azure (Databricks, Blob Storage)", "GCP (BigQuery, Dataform, Pub/Sub)", "Terraform", "Kubernetes"]
+    },
+    {
+      "group": "Databases & Tools",
+      "items": ["MongoDB", "Snowflake", "MySQL", "Oracle", "Pinecone", "Power BI", "Tableau", "FastAPI", "Docker", "Git"]
+    },
+    {
+      "group": "Dev Practices",
+      "items": ["CI/CD", "GitHub Actions", "Unit testing", "Linting", "Version control"]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Associate Software Engineer / Data Engineer",
+      "company": "Tanama Software, Bangalore (Remote)",
+      "dates": "Mar 2023 – Apr 2026",
+      "points": [
+        "Built data ingestion and transformation pipelines with Python, PySpark, and Azure Databricks, processing data from MongoDB and Azure Blob Storage for analytics and ML use cases",
+        "Contributed to an enterprise migration from HDFS to cloud storage, restructuring data into bronze, silver, and gold layers for downstream AI workloads",
+        "Automated recurring data preparation with scheduled Databricks workflows, improving pipeline reliability by ~30% and saving ~5 hours/week of manual effort",
+        "Added data quality checks — null handling, schema validation, row-count reconciliation — inside ETL pipelines feeding ML workloads",
+        "Supported end-to-end deployment of a fraudulent-website detection model, managing inference workflows across Amazon S3 and AWS EMR"
+      ],
+      "tags": ["Data Engineering", "PySpark", "Databricks", "Azure", "AWS"]
+    },
+    {
+      "title": "IoT / AI Model Developer Intern",
+      "company": "Diplomatic Consultancy Services, Oman",
+      "dates": "Jun 2022 – Nov 2022",
+      "points": [
+        "Developed image analysis models for pest detection and anomaly recognition from sensor and camera data in smart farming environments",
+        "Built ESP32-based prototypes for greenhouse and field monitoring, reaching 91%+ detection accuracy in pilot use cases"
+      ],
+      "tags": ["Computer Vision", "IoT", "Edge devices"]
+    }
+  ],
+  "education": [
+    {
+      "degree": "MSc in Computing (Artificial Intelligence)",
+      "school": "Dublin City University, Dublin, Ireland",
+      "dates": "Sep 2025 – Aug 2026",
+      "badges": [],
+      "coursework": []
+    },
+    {
+      "degree": "B.Tech in Computer Science Engineering (IoT)",
+      "school": "B. S. Abdur Rahman Crescent Institute of Science and Technology, Chennai, India",
+      "dates": "Oct 2021 – May 2025",
+      "badges": ["CGPA 7.3 / 10"],
+      "coursework": []
+    }
+  ],
+  "contact": {
+    "intro": "Open to full-time roles in Data Engineering, Analytics Engineering, and AI/ML. Best reached by email.",
+    "cardTitle": "Let's work together",
+    "cardText": "Best reached by email — I usually respond within a day.",
+    "lookingFor": ["Data / Analytics Engineering roles", "AI & ML Engineering roles", "Referrals and introductions"]
+  }
+}
