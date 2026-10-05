@@ -18,6 +18,19 @@ export type Site = {
   photo: string;
   stats: { label: string; value: string }[];
   about: string[];
+  research: {
+    kind: string;
+    title: string;
+    authors: string[];
+    venue: string;
+    year: string;
+    summary: string;
+    abstract: string;
+    metrics: { value: string; label: string }[];
+    tags: string[];
+    pdf: string;
+    pdfInfo: string;
+  }[];
   projectsIntro: string;
   skillsIntro: string;
   skills: { group: string; items: string[] }[];

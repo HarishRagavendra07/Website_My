@@ -32,6 +32,48 @@
     "I'm an AI and Data Engineer finishing an MSc in Computing (Artificial Intelligence) at Dublin City University. I build machine learning pipelines, scalable data workflows, and cloud solutions with Python, PySpark, Databricks, and SQL.",
     "At Tanama Software I built ingestion and transformation pipelines on Azure Databricks, helped migrate an enterprise data platform from HDFS to the cloud using a medallion architecture, and added data quality checks that downstream ML workloads depend on. I care about the parts that keep data trustworthy in production: validation, observability, and automation."
   ],
+  "research": [
+    {
+      "kind": "MSc Thesis",
+      "title": "Explainable AI-Driven Tomato Disease Diagnosis with Agentic Reasoning",
+      "authors": [
+        "Harish Ragavendra Chittibabu",
+        "Abdul Razzaq Abdul Rawoof"
+      ],
+      "venue": "MSc in Computing (Artificial Intelligence) · Dublin City University",
+      "year": "2026",
+      "summary": "A farmer-facing diagnosis system that combines explainable AI, structured LLM reasoning and English→Irish translation, so growers can see why the model reached a diagnosis and what to do next.",
+      "abstract": "Plant disease diagnosis remains critical for agricultural productivity, yet deep learning models' black-box nature limits farmer trust. This paper presents an integrated system combining explainable AI (XAI), structured reasoning, and neural machine translation for farmer-facing tomato disease diagnosis. We train a ResNet18 model with frozen backbone on 18,160 leaf images achieving 92.3% accuracy — our efficient training approach (20 min CPU-only, no GPU) enables rapid replication by researchers and adaptation to new crops without expensive infrastructure. Three XAI methods are evaluated, with Grad-CAM achieving 91.3% center focus score. Our contribution is a farmer-friendly interpretation layer transforming technical heatmaps into actionable visual reports with zoom panels and urgency-coded recommendations. A 5-step structured reasoning pipeline using LLaMA3 generates contextualized advice with automatic fallback to rule-based templates. For Irish agricultural contexts, we implement Helsinki-NLP neural translation (English→Irish) with BLEU 52.3 and chrF 61.8, validated against 1,800+ curated terms. A Gradio web application provides bilingual diagnosis with real-time translation quality transparency, bridging AI capability and farmer usability.",
+      "metrics": [
+        {
+          "value": "92.3%",
+          "label": "Classification accuracy"
+        },
+        {
+          "value": "91.3%",
+          "label": "Grad-CAM centre focus"
+        },
+        {
+          "value": "52.3",
+          "label": "BLEU, English→Irish"
+        },
+        {
+          "value": "20 min",
+          "label": "CPU-only training"
+        }
+      ],
+      "tags": [
+        "Explainable AI",
+        "Grad-CAM",
+        "ResNet18",
+        "LLaMA3",
+        "Agentic AI",
+        "Neural Machine Translation"
+      ],
+      "pdf": "/papers/explainable-ai-tomato-disease-diagnosis.pdf",
+      "pdfInfo": "PDF · 9 pages · 2.3 MB"
+    }
+  ],
   "projectsIntro": "Projects that best show how I design, build, test, and ship data and AI systems.",
   "skillsIntro": "Tools I've used to build real systems — not a wishlist.",
   "skills": [
