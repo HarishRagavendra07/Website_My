@@ -39,6 +39,6 @@ export function Chip({ children, mono = true }: { children: ReactNode; mono?: bo
 }
 
 export const btnPrimary =
-  "text-[16px] px-3 pt-[6px] pb-[5px] rounded-btn bg-carbon text-white hover:bg-accent-hover transition-colors";
+  "text-[16px] px-3 pt-[6px] pb-[5px] rounded-btn bg-ink text-bg hover:bg-ink/85 transition-colors";
 export const btnOutline =
   "flex items-center gap-1.5 text-[16px] px-3 pt-[6px] pb-[5px] rounded-btn border border-ink text-ink hover:bg-ink/5 transition-colors";

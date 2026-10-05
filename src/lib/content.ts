@@ -15,10 +15,8 @@ export type Site = {
   linkedin: string;
   github: string;
   resume: { label: string; file: string };
-  heroCard: {
-    pipeline: string[];
-    stats: { label: string; value: string }[];
-  };
+  photo: string;
+  stats: { label: string; value: string }[];
   about: string[];
   projectsIntro: string;
   skillsIntro: string;

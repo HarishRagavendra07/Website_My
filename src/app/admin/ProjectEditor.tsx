@@ -6,7 +6,7 @@ import ProjectCard from "@/components/ProjectCard";
 import type { Project } from "@/lib/content";
 
 const input =
-  "w-full rounded-md border border-border bg-white px-3 py-2 text-sm text-ink focus:outline-none focus:border-electric-blue";
+  "w-full rounded-md border border-border bg-bg px-3 py-2 text-sm text-ink focus:outline-none focus:border-electric-blue";
 const label = "block text-xs font-medium text-muted mb-1";
 const smallBtn = "text-xs px-2 py-1 rounded border border-border hover:border-ink disabled:opacity-30";
 
@@ -129,7 +129,7 @@ export default function ProjectEditor({ initial }: { initial: Project[] }) {
             <button
               onClick={save}
               disabled={!dirty || status?.kind === "busy"}
-              className="text-sm px-3 py-1.5 rounded-btn bg-carbon text-white hover:bg-accent-hover disabled:opacity-40"
+              className="text-sm px-3 py-1.5 rounded-btn bg-ink text-bg hover:bg-ink/85 disabled:opacity-40"
             >
               {dirty ? "Save changes" : "Saved"}
             </button>
@@ -147,7 +147,7 @@ export default function ProjectEditor({ initial }: { initial: Project[] }) {
             {projects.map((p, i) => (
               <li key={p.id}>
                 <div
-                  className={`flex items-center gap-1 rounded-md border px-2 py-1.5 ${p.id === selected ? "border-electric-blue bg-white" : "border-border bg-card"}`}
+                  className={`flex items-center gap-1 rounded-md border px-2 py-1.5 ${p.id === selected ? "border-electric-blue bg-bg" : "border-border bg-card"}`}
                 >
                   <button onClick={() => setSelected(p.id)} className="flex-1 text-left text-sm truncate">
                     <span className={p.hidden ? "text-muted line-through" : ""}>{p.title}</span>
@@ -246,7 +246,7 @@ export default function ProjectEditor({ initial }: { initial: Project[] }) {
                 </button>
               </div>
               {current.details.map((d, i) => (
-                <div key={i} className="space-y-2 rounded-md bg-white border border-border p-2">
+                <div key={i} className="space-y-2 rounded-md bg-bg border border-border p-2">
                   <div className="flex gap-2">
                     <input
                       className={input}
