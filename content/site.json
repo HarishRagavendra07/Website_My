@@ -142,7 +142,7 @@
       "group": "Cloud",
       "items": [
         "AWS (S3, Lambda, EMR, SageMaker, Bedrock)",
-        "Azure (Databricks, Fabric)"
+        "Azure (Container Apps, Databricks, Fabric)"
       ]
     },
     {
@@ -183,7 +183,7 @@
       "title": "Software Engineer",
       "company": "Tanama Software Limited, Bengaluru",
       "note": "Remote, concurrent with studies",
-      "dates": "Mar 2021 – Apr 2026",
+      "dates": "Mar 2023 – Apr 2026",
       "points": [
         "Debugged and tested the backend of an internal data-storage application holding financial data from Indian banks, building debug APIs, monitoring load and managing caching to keep the service stable under production traffic",
         "Built and owned an end-to-end data pipeline processing 200+ GB/day, scalable to 500 GB/day, with health checks, 400 GB volume alerts and PostgreSQL backups on Kubernetes using WAL archiving and point-in-time recovery",
@@ -238,7 +238,7 @@
       ]
     },
     {
-      "degree": "B.Tech in Computer Science Engineering (IoT)",
+      "degree": "B.Tech in Computer Science Engineering",
       "school": "B. S. Abdur Rahman Crescent Institute of Science and Technology, Chennai, India",
       "dates": "Oct 2021 – May 2025",
       "thesis": {

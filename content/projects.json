@@ -9,9 +9,19 @@
     "highlights": [
       "Combined SQL typology rules (CTEs, window functions, recursive queries), Isolation Forest anomaly scoring and NetworkX graph analysis, cutting a raw 84% flag rate to a 0.9% actionable alert rate",
       "Designed a GDPR-compliant PostgreSQL schema with HMAC-SHA256 pseudonymisation, EXPLAIN ANALYZE-tuned indexed queries and a data retention policy aligned with UK GDPR, MLR 2017 and POCA 2002",
-      "Delivered a FastAPI REST API (6 endpoints) and a 4-page Plotly Dash dashboard surfacing risk scores and LLM-generated SAR narratives, shipped with Docker Compose and a GitHub Actions CI/CD pipeline"
+      "Delivered a FastAPI REST API (6 endpoints) and a 4-page Plotly Dash dashboard surfacing risk scores and LLM-generated SAR narratives, deployed to Azure Container Apps with Docker Compose and a GitHub Actions CI/CD pipeline"
     ],
-    "tech": ["Python", "PostgreSQL", "FastAPI", "scikit-learn", "NetworkX", "Plotly Dash", "Docker", "GitHub Actions"],
+    "tech": [
+      "Python",
+      "PostgreSQL",
+      "FastAPI",
+      "scikit-learn",
+      "NetworkX",
+      "Plotly Dash",
+      "Docker",
+      "GitHub Actions",
+      "Azure Container Apps"
+    ],
     "github": "https://github.com/HarishRagavendra07/aml-triage-system",
     "live": "",
     "details": [],
