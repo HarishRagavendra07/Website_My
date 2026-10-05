@@ -112,7 +112,7 @@ export default function Hero({ site }: { site: Site }) {
               ))}
             </div>
             {site.stats.length > 0 && (
-              <dl className={`grid grid-cols-3 gap-6 max-w-lg ${fade("0.6s")}`}>
+              <dl className={`flex flex-wrap gap-x-12 gap-y-6 ${fade("0.6s")}`}>
                 {site.stats.map((s) => (
                   <div key={s.label} className="flex flex-col-reverse">
                     <dt className="text-xs sm:text-sm text-muted mt-1">{s.label}</dt>

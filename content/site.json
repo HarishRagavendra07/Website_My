@@ -16,10 +16,6 @@
   "photo": "/profile.jpg",
   "stats": [
     {
-      "label": "Data per day",
-      "value": "200+ GB"
-    },
-    {
       "label": "Fewer false positives",
       "value": "87%"
     },
