@@ -26,5 +26,57 @@
     "live": "",
     "details": [],
     "hidden": false
+  },
+  {
+    "id": "agroie",
+    "title": "AgroIE — Bilingual RAG Assistant for Irish Farmers",
+    "tag": "In progress",
+    "media": "/projects/agroie/cover.png",
+    "mediaAlt": "AgroIE architecture: chat (RAG), language, ingestion and weather microservices",
+    "summary": "A retrieval-augmented chatbot that answers farming questions in English and Irish (Gaeilge), grounded in Teagasc guidelines, CAP/BISS schemes, Irish nitrates rules and live Met Éireann weather.",
+    "highlights": [
+      "Built a RAG pipeline that detects the question's language, translates Irish queries for vector search, retrieves cited chunks and translates the answer back, so every reply links to its source documents",
+      "Split the system into FastAPI microservices (gateway, chat, language, ingestion, weather), each containerised with Docker and runnable together with Docker Compose",
+      "Designed one codebase for two environments: Ollama, ChromaDB and sentence-transformers locally for free, and AWS Bedrock (Claude 3 Sonnet, Titan embeddings) with Amazon OpenSearch in production",
+      "Provisioned AWS infrastructure (VPC, EKS, OpenSearch, ECR, S3, IAM) with Terraform, and a GitHub Actions pipeline that builds every service image, pushes to ECR and deploys to EKS"
+    ],
+    "tech": [
+      "Python",
+      "FastAPI",
+      "LangChain",
+      "AWS Bedrock",
+      "Amazon OpenSearch",
+      "Ollama",
+      "Docker",
+      "Kubernetes (EKS)",
+      "Terraform",
+      "GitHub Actions"
+    ],
+    "github": "https://github.com/HarishRagavendra07/AgroIE",
+    "live": "",
+    "details": [
+      {
+        "heading": "How a question flows",
+        "points": [
+          "The gateway checks the user's AWS Cognito JWT and routes the request (auth is mocked in local development)",
+          "The language service detects English or Irish with langdetect, an Irish keyword check and AWS Comprehend as a fallback, then translates with AWS Translate using a custom farming glossary",
+          "The chat service embeds the question, retrieves the closest chunks and prompts the LLM to answer only from that context, citing sources and saying so when the context is not enough"
+        ]
+      },
+      {
+        "heading": "Knowledge base",
+        "points": [
+          "Teagasc guidance on grass, soil fertility, dairy, beef and tillage",
+          "Department of Agriculture CAP/BISS scheme information, Bord Bia standards and Met Éireann live weather for each county"
+        ]
+      },
+      {
+        "heading": "Still to build",
+        "points": [
+          "Next.js bilingual chat UI, subsidy and user-profile services, and Prometheus/Grafana observability"
+        ]
+      }
+    ],
+    "hidden": false
   }
 ]
