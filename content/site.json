@@ -181,9 +181,8 @@
   "experience": [
     {
       "title": "Software Engineer",
-      "company": "Tanama Software Limited, Bengaluru",
+      "company": "Tanama Software Limited",
       "note": "Remote, concurrent with studies",
-      "dates": "Mar 2023 – Apr 2026",
       "points": [
         "Debugged and tested the backend of an internal data-storage application holding financial data from Indian banks, building debug APIs, monitoring load and managing caching to keep the service stable under production traffic",
         "Built and owned an end-to-end data pipeline processing 200+ GB/day, scalable to 500 GB/day, with health checks, 400 GB volume alerts and PostgreSQL backups on Kubernetes using WAL archiving and point-in-time recovery",
@@ -201,9 +200,8 @@
     },
     {
       "title": "AI/ML Intern",
-      "company": "Diplomatic Consultancy Services, Muscat, Oman",
+      "company": "Diplomatic Consultancy Services",
       "note": "Remote, concurrent with studies",
-      "dates": "Jun 2022 – Nov 2022",
       "points": [
         "Built ESP32 and Raspberry Pi camera rigs to capture field images of eggplant and okra plants, creating the dataset for automated crop-damage detection",
         "Trained a ResNet model in Python to classify healthy, damaged and pest-infested eggplant and okra, reaching 91% accuracy in pilot deployments",

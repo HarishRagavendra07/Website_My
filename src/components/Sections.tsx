@@ -74,7 +74,7 @@ export function Experience({ site }: { site: Site }) {
           <div key={job.title + job.company} className={card}>
             <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1 mb-1">
               <h3 className="font-medium text-ink">{job.title}</h3>
-              <span className="text-xs text-muted shrink-0">{job.dates}</span>
+              {job.dates && <span className="text-xs text-muted shrink-0">{job.dates}</span>}
             </div>
             <p className="text-sm text-muted mb-4">
               {job.company}

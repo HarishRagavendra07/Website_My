@@ -37,7 +37,7 @@ export type Site = {
   experience: {
     title: string;
     company: string;
-    dates: string;
+    dates?: string;
     note?: string;
     points: string[];
     tags: string[];
