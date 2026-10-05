@@ -1,4 +1,5 @@
 import type { Site } from "@/lib/content";
+import Mascot from "./Mascot";
 import NeuralBackground from "./NeuralBackground";
 import { ChevronIcon, DownloadIcon, GitHubIcon, LinkedInIcon, MailIcon, SparkleIcon } from "./icons";
 import { btnOutline, btnPrimary } from "./ui";
@@ -47,7 +48,7 @@ function Portrait({ site }: { site: Site }) {
         <img
           src={site.photo}
           alt={site.name}
-          className="relative w-full h-full rounded-full object-cover [image-rendering:pixelated] border-4 border-bg shadow-2xl"
+          className="relative w-full h-full rounded-full object-cover border-4 border-bg shadow-2xl"
         />
       ) : (
         <div className="relative w-full h-full rounded-full border-4 border-bg bg-card shadow-2xl" />
@@ -72,6 +73,7 @@ export default function Hero({ site }: { site: Site }) {
       <div className="relative min-h-screen flex flex-col justify-center px-4 pt-28 pb-16 max-w-[1200px] mx-auto">
         <div className="grid lg:grid-cols-[1.15fr_0.85fr] gap-16 lg:gap-10 items-center">
           <div className="order-2 lg:order-1 max-w-2xl">
+            <Mascot className={`-ml-2 mb-3 ${fade("0s")}`} />
             <span
               className={`inline-flex items-center gap-2 text-xs px-3 py-1.5 rounded-md border border-border bg-card text-ink mb-7 ${fade("0s")}`}
             >
