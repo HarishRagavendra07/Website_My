@@ -47,7 +47,7 @@ function Portrait({ site }: { site: Site }) {
         <img
           src={site.photo}
           alt={site.name}
-          className="relative w-full h-full rounded-full object-cover border-4 border-bg shadow-2xl"
+          className="relative w-full h-full rounded-full object-cover [image-rendering:pixelated] border-4 border-bg shadow-2xl"
         />
       ) : (
         <div className="relative w-full h-full rounded-full border-4 border-bg bg-card shadow-2xl" />
