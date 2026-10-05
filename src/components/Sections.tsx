@@ -115,6 +115,18 @@ export function Education({ site }: { site: Site }) {
               <span className="text-xs text-muted shrink-0">{ed.dates}</span>
             </div>
             <p className="text-sm text-muted">{ed.school}</p>
+            {ed.thesis && (
+              <p className="text-sm text-ink mt-4">
+                <span className="text-muted">Thesis: </span>
+                {ed.thesis.href ? (
+                  <a href={ed.thesis.href} className="underline decoration-border underline-offset-4 hover:text-electric-blue hover:decoration-electric-blue transition-colors">
+                    {ed.thesis.title}
+                  </a>
+                ) : (
+                  ed.thesis.title
+                )}
+              </p>
+            )}
             {ed.badges.length > 0 && (
               <div className="flex flex-wrap gap-2 mt-4">
                 {ed.badges.map((b) => (

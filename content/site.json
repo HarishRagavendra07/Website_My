@@ -1,36 +1,36 @@
 {
   "name": "Harish Ragavendra",
-  "role": "AI & Data Engineer",
+  "role": "Software, Data & AI Engineer",
   "location": "Dublin, Ireland",
   "availability": "Open to full-time roles",
-  "headline": "AI and data engineer building reliable pipelines and ML systems for",
+  "headline": "Software, data and AI engineer building backend APIs, production data pipelines and ML systems for",
   "headlineHighlight": "real-world data",
-  "intro": "Three years shipping production data pipelines, ML workflows, and cloud infrastructure — data quality, observability, and automation, not just a notebook demo.",
-  "email": "shyamharish2004@gmail.com",
-  "linkedin": "",
+  "intro": "Backend services, 200+ GB/day data pipelines and fraud-detection models in production at Tanama Software — now finishing an MSc in Artificial Intelligence at Dublin City University.",
+  "email": "harishragavendra.c.2004@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/harish-ragavendra-chittibabu",
   "github": "https://github.com/HarishRagavendra07",
   "resume": {
-    "label": "AI & Data Engineer",
+    "label": "Software, Data & AI Engineer",
     "file": "/resumes/Harish-Ragavendra-Resume.pdf"
   },
   "photo": "/profile.jpg",
   "stats": [
     {
-      "label": "Years experience",
-      "value": "3+"
+      "label": "Data per day",
+      "value": "200+ GB"
     },
     {
-      "label": "Reliability gain",
-      "value": "~30%"
+      "label": "Fewer false positives",
+      "value": "87%"
     },
     {
-      "label": "Detection accuracy",
-      "value": "91%+"
+      "label": "Thesis accuracy",
+      "value": "92.3%"
     }
   ],
   "about": [
-    "I'm an AI and Data Engineer finishing an MSc in Computing (Artificial Intelligence) at Dublin City University. I build machine learning pipelines, scalable data workflows, and cloud solutions with Python, PySpark, Databricks, and SQL.",
-    "At Tanama Software I built ingestion and transformation pipelines on Azure Databricks, helped migrate an enterprise data platform from HDFS to the cloud using a medallion architecture, and added data quality checks that downstream ML workloads depend on. I care about the parts that keep data trustworthy in production: validation, observability, and automation."
+    "I'm a software, data and AI engineer finishing an MSc in Computing (Artificial Intelligence) at Dublin City University. I work across the stack that real AI products depend on: RESTful APIs and microservices, data pipelines on PostgreSQL, Kafka and PySpark, and machine learning models that are measurable and explainable.",
+    "At Tanama Software I built and owned a pipeline processing 200+ GB of banking data a day, migrated on-premise banking data to AWS with under 30 minutes of downtime, and replaced a rule-based Spark system with a gradient-boosting fraud model that cut false positives by 87%. I care about the parts that keep systems trustworthy in production: validation, monitoring, recovery and compliance."
   ],
   "research": [
     {
@@ -42,12 +42,12 @@
       ],
       "venue": "MSc in Computing (Artificial Intelligence) · Dublin City University",
       "year": "2026",
-      "summary": "A farmer-facing diagnosis system that combines explainable AI, structured LLM reasoning and English→Irish translation, so growers can see why the model reached a diagnosis and what to do next.",
+      "summary": "A farmer-facing diagnosis system that combines explainable AI, a 5-stage LLaMA3 reasoning pipeline and English→Irish translation, so growers can see why the model reached a diagnosis and what to do next.",
       "abstract": "Plant disease diagnosis remains critical for agricultural productivity, yet deep learning models' black-box nature limits farmer trust. This paper presents an integrated system combining explainable AI (XAI), structured reasoning, and neural machine translation for farmer-facing tomato disease diagnosis. We train a ResNet18 model with frozen backbone on 18,160 leaf images achieving 92.3% accuracy — our efficient training approach (20 min CPU-only, no GPU) enables rapid replication by researchers and adaptation to new crops without expensive infrastructure. Three XAI methods are evaluated, with Grad-CAM achieving 91.3% center focus score. Our contribution is a farmer-friendly interpretation layer transforming technical heatmaps into actionable visual reports with zoom panels and urgency-coded recommendations. A 5-step structured reasoning pipeline using LLaMA3 generates contextualized advice with automatic fallback to rule-based templates. For Irish agricultural contexts, we implement Helsinki-NLP neural translation (English→Irish) with BLEU 52.3 and chrF 61.8, validated against 1,800+ curated terms. A Gradio web application provides bilingual diagnosis with real-time translation quality transparency, bridging AI capability and farmer usability.",
       "metrics": [
         {
           "value": "92.3%",
-          "label": "Classification accuracy"
+          "label": "Accuracy (Macro-F1 0.903)"
         },
         {
           "value": "91.3%",
@@ -74,110 +74,145 @@
       "pdfInfo": "PDF · 9 pages · 2.3 MB"
     }
   ],
-  "projectsIntro": "Projects that best show how I design, build, test, and ship data and AI systems.",
+  "projectsIntro": "Projects that best show how I design, build, test, and ship software, data and AI systems.",
   "skillsIntro": "Tools I've used to build real systems — not a wishlist.",
   "skills": [
     {
       "group": "Languages",
       "items": [
         "Python",
-        "SQL"
+        "JavaScript",
+        "SQL",
+        "C++"
+      ]
+    },
+    {
+      "group": "APIs & Frameworks",
+      "items": [
+        "RESTful API design",
+        "FastAPI",
+        "Microservices architecture"
       ]
     },
     {
       "group": "AI & ML",
       "items": [
+        "PyTorch",
         "scikit-learn",
         "XGBoost",
-        "LangChain",
-        "SHAP",
-        "Feature pipelines",
-        "Anomaly detection",
-        "RAG"
+        "LightGBM",
+        "Transfer learning (ResNet)",
+        "Grad-CAM · SHAP · LIME",
+        "LLaMA3 (Ollama)",
+        "MarianMT",
+        "NetworkX"
       ]
     },
     {
-      "group": "Data Engineering",
+      "group": "Databases",
       "items": [
-        "PySpark",
-        "Spark",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Oracle",
+        "Snowflake",
+        "Pinecone (vector DB)"
+      ]
+    },
+    {
+      "group": "Database Engineering",
+      "items": [
+        "Schema design",
+        "Query optimisation",
+        "CTEs",
+        "Window functions",
+        "Recursive queries",
+        "Orchestration"
+      ]
+    },
+    {
+      "group": "Data & Messaging",
+      "items": [
         "Kafka",
-        "Databricks",
-        "ETL pipelines",
-        "Hadoop (HDFS)",
-        "Medallion architecture",
-        "Data quality checks",
-        "Data observability"
+        "PySpark",
+        "ETL pipelines"
       ]
     },
     {
       "group": "Cloud",
       "items": [
-        "AWS (S3, EMR, SageMaker, Lambda, Kinesis)",
-        "Azure (Databricks, Blob Storage)",
-        "GCP (BigQuery, Dataform, Pub/Sub)",
-        "Terraform",
-        "Kubernetes"
+        "AWS (S3, Lambda, EMR, SageMaker, Bedrock)",
+        "Azure (Databricks, Fabric)"
       ]
     },
     {
-      "group": "Databases & Tools",
+      "group": "Containers & Infrastructure",
       "items": [
-        "MongoDB",
-        "Snowflake",
-        "MySQL",
-        "Oracle",
-        "Pinecone",
-        "Power BI",
-        "Tableau",
-        "FastAPI",
         "Docker",
-        "Git"
+        "Docker Compose",
+        "Kubernetes (AWS EKS)",
+        "Terraform"
       ]
     },
     {
-      "group": "Dev Practices",
+      "group": "DevOps & Testing",
       "items": [
-        "CI/CD",
-        "GitHub Actions",
-        "Unit testing",
-        "Linting",
-        "Version control"
+        "CI/CD (GitHub Actions)",
+        "Automated testing (PyTest)"
+      ]
+    },
+    {
+      "group": "Security & Compliance",
+      "items": [
+        "GDPR-compliant data design",
+        "HMAC-SHA256 pseudonymisation",
+        "Data retention policies"
+      ]
+    },
+    {
+      "group": "AI Assist Tools",
+      "items": [
+        "Kiro",
+        "Antigravity",
+        "GitHub Copilot"
       ]
     }
   ],
   "experience": [
     {
-      "title": "Associate Software Engineer / Data Engineer",
-      "company": "Tanama Software, Bangalore (Remote)",
-      "dates": "Mar 2023 – Apr 2026",
+      "title": "Software Engineer",
+      "company": "Tanama Software Limited, Bengaluru",
+      "note": "Remote, concurrent with studies",
+      "dates": "Mar 2021 – Apr 2026",
       "points": [
-        "Built data ingestion and transformation pipelines with Python, PySpark, and Azure Databricks, processing data from MongoDB and Azure Blob Storage for analytics and ML use cases",
-        "Contributed to an enterprise migration from HDFS to cloud storage, restructuring data into bronze, silver, and gold layers for downstream AI workloads",
-        "Automated recurring data preparation with scheduled Databricks workflows, improving pipeline reliability by ~30% and saving ~5 hours/week of manual effort",
-        "Added data quality checks — null handling, schema validation, row-count reconciliation — inside ETL pipelines feeding ML workloads",
-        "Supported end-to-end deployment of a fraudulent-website detection model, managing inference workflows across Amazon S3 and AWS EMR"
+        "Debugged and tested the backend of an internal data-storage application holding financial data from Indian banks, building debug APIs, monitoring load and managing caching to keep the service stable under production traffic",
+        "Built and owned an end-to-end data pipeline processing 200+ GB/day, scalable to 500 GB/day, with health checks, 400 GB volume alerts and PostgreSQL backups on Kubernetes using WAL archiving and point-in-time recovery",
+        "Designed and built the pipeline that migrated banking data from on-premise servers to AWS S3, with processing on EC2 and a failover cluster that kept APIs and data transfer running with under 30 minutes of downtime",
+        "Automated validation of the data flow, queries and pipeline outputs, cutting the full verification cycle from 1 week to under 2 days",
+        "Built a fraud-detection model using gradient boosting (XGBoost, LightGBM) on AWS, scoring thousands of transactions per minute and cutting false positives by 87% versus the previous Spark rule-based system"
       ],
       "tags": [
-        "Data Engineering",
-        "PySpark",
-        "Databricks",
-        "Azure",
-        "AWS"
+        "Backend APIs",
+        "PostgreSQL",
+        "Kubernetes",
+        "AWS",
+        "XGBoost"
       ]
     },
     {
-      "title": "IoT / AI Model Developer Intern",
-      "company": "Diplomatic Consultancy Services, Oman",
+      "title": "AI/ML Intern",
+      "company": "Diplomatic Consultancy Services, Muscat, Oman",
+      "note": "Remote, concurrent with studies",
       "dates": "Jun 2022 – Nov 2022",
       "points": [
-        "Developed image analysis models for pest detection and anomaly recognition from sensor and camera data in smart farming environments",
-        "Built ESP32-based prototypes for greenhouse and field monitoring, reaching 91%+ detection accuracy in pilot use cases"
+        "Built ESP32 and Raspberry Pi camera rigs to capture field images of eggplant and okra plants, creating the dataset for automated crop-damage detection",
+        "Trained a ResNet model in Python to classify healthy, damaged and pest-infested eggplant and okra, reaching 91% accuracy in pilot deployments",
+        "Connected the edge devices to AWS S3 so captured images flowed automatically into the model for real-time monitoring"
       ],
       "tags": [
         "Computer Vision",
         "IoT",
-        "Edge devices"
+        "AWS S3"
       ]
     }
   ],
@@ -186,27 +221,51 @@
       "degree": "MSc in Computing (Artificial Intelligence)",
       "school": "Dublin City University, Dublin, Ireland",
       "dates": "Sep 2025 – Aug 2026",
+      "thesis": {
+        "title": "Explainable AI Tomato Disease Diagnosis with Agentic Reasoning",
+        "href": "#research"
+      },
       "badges": [],
-      "coursework": []
+      "coursework": [
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Machine Translation",
+        "Data Analytics & Data Mining",
+        "Large Language Models",
+        "RAG",
+        "Statistical Data Analysis",
+        "Data Management & Visualisation"
+      ]
     },
     {
       "degree": "B.Tech in Computer Science Engineering (IoT)",
       "school": "B. S. Abdur Rahman Crescent Institute of Science and Technology, Chennai, India",
       "dates": "Oct 2021 – May 2025",
-      "badges": [
-        "CGPA 7.3 / 10"
-      ],
-      "coursework": []
+      "thesis": {
+        "title": "AI-Driven Smart Robotic System for Sustainable Greenhouse Management",
+        "href": ""
+      },
+      "badges": [],
+      "coursework": [
+        "Data Structures & Algorithms",
+        "Object-Oriented Programming",
+        "Database Management Systems",
+        "Operating Systems",
+        "Computer Networks",
+        "Embedded Systems",
+        "Cloud Computing",
+        "Machine Learning"
+      ]
     }
   ],
   "contact": {
-    "intro": "Open to full-time roles in Data Engineering, Analytics Engineering, and AI/ML. Best reached by email.",
+    "intro": "Open to full-time roles in Software Engineering, Data Engineering and AI/ML. Best reached by email.",
     "cardTitle": "Let's work together",
     "cardText": "Best reached by email — I usually respond within a day.",
     "lookingFor": [
-      "Data / Analytics Engineering roles",
-      "AI & ML Engineering roles",
-      "Referrals and introductions"
+      "Software Engineering roles (backend / platform)",
+      "Data Engineering roles",
+      "AI & ML Engineering roles"
     ]
   }
 }

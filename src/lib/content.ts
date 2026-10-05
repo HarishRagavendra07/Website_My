@@ -46,6 +46,7 @@ export type Site = {
     degree: string;
     school: string;
     dates: string;
+    thesis?: { title: string; href: string };
     badges: string[];
     coursework: string[];
   }[];
